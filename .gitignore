@@ -1,0 +1,17 @@
+# 忽略資料集與快取
+datasets/
+*.cache
+
+# 忽略模型權重與訓練過程紀錄
+*.pt
+weights/
+runs/
+
+# 忽略 Python 產生的編譯檔與環境檔
+__pycache__/
+*.pyc
+.env
+
+# 忽略編輯器產生的設定檔
+.vscode/
+.idea/
