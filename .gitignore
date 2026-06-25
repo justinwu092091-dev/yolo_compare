@@ -1,7 +1,7 @@
 # 忽略資料集與快取
 datasets/
 *.cache
-
+else/
 # 忽略模型權重與訓練過程紀錄
 *.pt
 weights/

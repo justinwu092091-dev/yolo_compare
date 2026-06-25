@@ -1,0 +1,13 @@
+# 建議路徑中的斜線使用正斜線 / 
+train: D:/yolo_compare/yolov5_hic/data/train/images
+val: D:/yolo_compare/yolov5_hic/data/valid/images
+
+nc: 1
+names: ['balltt']
+
+roboflow:
+  workspace: s-workspace-ezwqs
+  project: balltt-gkadh
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/s-workspace-ezwqs/balltt-gkadh/dataset/dataset
